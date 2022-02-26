@@ -52,6 +52,21 @@ stage("Code coverage") {
  
 } 
 
+
+stage("Static code analysis") { 
+
+ 
+     steps { 
+
+ 
+          sh "./gradlew checkstyleMain" 
+
+ 
+     } 
+
+ 
+} 
+
  
      } 
 
