@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: calculator
-        image: leszko/calculator:caching
+        image: leszko/calculator:{{VERSION}}
         ports:
         - containerPort: 8080
         readinessProbe: 
