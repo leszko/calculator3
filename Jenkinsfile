@@ -153,11 +153,4 @@ stage("Smoke test") {
  
      } 
 
-post { 
-     always { 
-          sh "docker stop calculator" 
-     } 
-} 
-
- 
 } 
